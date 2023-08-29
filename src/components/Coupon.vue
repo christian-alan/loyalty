@@ -28,7 +28,7 @@ export default {
     <div @click="openCoupon(couponId,status)" class=" relative flex flex-row justify-between  items-center bg-white w-full">
         <!-- Left coupon cutting -->
         <div class="absolute top-1 -left-2">
-            <svg class="w-full h-auto fill-current" width="20" height="180" preserve-aspect-ratio="none">
+            <svg class="fill-current" width="20" height="180" preserve-aspect-ratio="none">
                 <circle cx="10" cy="20" r="10" fill="#5EA1F0" />
                 <circle cx="10" cy="48" r="10" fill="#5EA1F0" />
                 <circle cx="10" cy="78" r="10" fill="#5EA1F0" />
@@ -39,7 +39,7 @@ export default {
 
         <!-- Right coupon cutting -->
         <div class="absolute top-1 -right-2">
-            <svg class="w-full h-auto fill-current" width="20" height="180" preserve-aspect-ratio="none">
+            <svg class="fill-current" width="20" height="180" preserve-aspect-ratio="none">
                 <circle cx="10" cy="20" r="10" fill="#5EA1F0" />
                 <circle cx="10" cy="48" r="10" fill="#5EA1F0" />
                 <circle cx="10" cy="78" r="10" fill="#5EA1F0" />

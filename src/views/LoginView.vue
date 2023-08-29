@@ -24,7 +24,7 @@
         <div v-if="tab==='patron'" class="relative flex flex-col items-center justify-center py-5 px-6 bg-white w-full mt-4">
             <!-- Left coupon cutting -->
             <div class="absolute top-1 -left-2 z-10">
-                <svg class="w-full h-auto fill-current" width="20" height="700" preserve-aspect-ratio="none">
+                <svg class="fill-current" width="20" height="700" preserve-aspect-ratio="none">
                     <circle cx="10" cy="20" r="10" fill="#5EA1F0" />
                     <circle cx="10" cy="48" r="10" fill="#5EA1F0" />
                     <circle cx="10" cy="78" r="10" fill="#5EA1F0" />
@@ -47,7 +47,7 @@
     
             <!-- Right coupon cutting -->
             <div class="absolute top-1 -right-2 z-10">
-                <svg class="w-full h-auto fill-current" width="20" height="700" preserve-aspect-ratio="none">
+                <svg class="fill-current" width="20" height="700" preserve-aspect-ratio="none">
                     <circle cx="10" cy="20" r="10" fill="#5EA1F0" />
                     <circle cx="10" cy="48" r="10" fill="#5EA1F0" />
                     <circle cx="10" cy="78" r="10" fill="#5EA1F0" />
@@ -70,7 +70,7 @@
             </div>
             
             <!-- Headline -->
-            <div class="text-blue pb-4" style="border-bottom:1px dashed #5EA1F0">
+            <div class="text-blue w-full pb-4" style="border-bottom:1px dashed #5EA1F0">
 
                 <h1 class="text-xl font-bold ">Save more & Shop more</h1>
                 <p class="font-medium">With Loyalty, get the best offers and the best deals from your local brands</p>
@@ -107,7 +107,7 @@
     <div v-if="tab==='business'" class="relative flex flex-col items-center justify-center py-5 px-6 bg-white w-full mt-4">
         <!-- Left coupon cutting -->
         <div class="absolute top-1 -left-2 z-10">
-            <svg class="w-full h-auto fill-current" width="20" height="700" preserve-aspect-ratio="none">
+            <svg class=" fill-current" width="20" height="700" preserve-aspect-ratio="none">
                 <circle cx="10" cy="20" r="10" fill="#5EA1F0" />
                 <circle cx="10" cy="48" r="10" fill="#5EA1F0" />
                 <circle cx="10" cy="78" r="10" fill="#5EA1F0" />
@@ -130,7 +130,7 @@
 
         <!-- Right coupon cutting -->
         <div class="absolute top-1 -right-2 z-10">
-            <svg class="w-full h-auto fill-current" width="20" height="700" preserve-aspect-ratio="none">
+            <svg class=" fill-current" width="20" height="700" preserve-aspect-ratio="none">
                 <circle cx="10" cy="20" r="10" fill="#5EA1F0" />
                 <circle cx="10" cy="48" r="10" fill="#5EA1F0" />
                 <circle cx="10" cy="78" r="10" fill="#5EA1F0" />
@@ -153,7 +153,7 @@
         </div>
         
           <!-- Headlines -->
-        <div class="text-blue pb-4" style="border-bottom:1px dashed #5EA1F0">
+        <div class="text-blue pb-4 w-full flex flex-col" style="border-bottom:1px dashed #5EA1F0">
 
             <h1 class="text-xl font-bold ">Earn your patron's loyalty</h1>
             <p class="font-medium">With Loyalty, increase your customer base and revenue</p>

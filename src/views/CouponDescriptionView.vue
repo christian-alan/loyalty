@@ -59,12 +59,12 @@ export default{
 
 <template>
 
-        <div class="w-screen h-screen px-2.5 pb-16 flex flex-col items-center justify-between">
+        <div class="w-screen h-screen px-2.5 pb-16 flex common-container flex-col items-center justify-between">
         <div class=" relative flex flex-col bg-white w-full mt-16 pb-4">
             
             <!-- Left coupon cutting -->
             <div class="absolute top-1 -left-2 z-10">
-                <svg class="w-full h-auto fill-current" width="20" height="700" preserve-aspect-ratio="none">
+                <svg class=" fill-current" width="20" height="700" preserve-aspect-ratio="none">
                     <circle cx="10" cy="20" r="10" fill="#5EA1F0" />
                     <circle cx="10" cy="48" r="10" fill="#5EA1F0" />
                     <circle cx="10" cy="78" r="10" fill="#5EA1F0" />
@@ -88,7 +88,7 @@ export default{
 
             <!-- Right coupon cutting -->
             <div class="absolute top-1 -right-2 z-10">
-                <svg class="w-full h-auto fill-current" width="20" height="700" preserve-aspect-ratio="none">
+                <svg class=" fill-current" width="20" height="700" preserve-aspect-ratio="none">
                     <circle cx="10" cy="20" r="10" fill="#5EA1F0" />
                     <circle cx="10" cy="48" r="10" fill="#5EA1F0" />
                     <circle cx="10" cy="78" r="10" fill="#5EA1F0" />

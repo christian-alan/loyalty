@@ -1,5 +1,5 @@
 Notes:
-- This app is mobile first. Run the app on your mobile device for the best experience.
+- This app is a mobile first. Run the app on your mobile device for the best experience.
 - To access the coupons page create an account from the rgister account option.
 - Business registration and the entire business side of app is still pending.
 - A limitation of the authguard is that, at a given time a user can authenticate only through one account. Other cases are yet to be handled.

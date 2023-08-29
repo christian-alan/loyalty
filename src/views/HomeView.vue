@@ -35,7 +35,6 @@ export default{
         // this.createCoupon('40% Off','https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Zara_Logo.svg/1000px-Zara_Logo.svg.png','30 October 2023','On your 5th purchase of 500 SEK','Zara');
         // this.getAllCoupons();
        await DB.getAllCouponsForUser().then((coupons)=>{
-            console.log(coupons);
             this.coupons = coupons;
             this.tab = 'active';
        });
@@ -67,6 +66,7 @@ export default{
     <div class="fixed top-0 w-full left-0 z-20 px-2.5" :class="changeBg?'bg-white hard-shadow':''">
          <NavBar></NavBar>
     </div>
+    
     <!-- Amount saved -->
     <div class="px-6 py-5 mt-24 flex justify-between items-center bg-white w-full hard-shadow">
 
